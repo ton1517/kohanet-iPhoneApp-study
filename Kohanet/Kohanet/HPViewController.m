@@ -16,14 +16,13 @@
 
 @implementation HPViewController
 
-static NSString * const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
+static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     
-    if(self) {
-        
+    if (self) {
         NSURL *url = [NSURL URLWithString:HOME_URL];
         request = [NSURLRequest requestWithURL:url];
     }
@@ -34,7 +33,7 @@ static NSString * const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
     
     self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:request];
@@ -46,8 +45,18 @@ static NSString * const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewDidUnload {
+- (void)viewDidUnload
+{
     [self setWebView:nil];
+    [self setHomeButton:nil];
     [super viewDidUnload];
 }
+
+#pragma mark - IBAction
+
+- (IBAction)tappedHomeButton:(id)sender
+{
+    [self.webView loadRequest:request];
+}
+
 @end

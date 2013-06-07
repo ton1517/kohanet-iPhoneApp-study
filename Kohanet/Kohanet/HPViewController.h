@@ -10,5 +10,8 @@
 
 @interface HPViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIButton *homeButton;
+
+- (IBAction)tappedHomeButton:(id)sender;
 
 @end
