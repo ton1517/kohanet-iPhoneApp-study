@@ -222,6 +222,165 @@ StoryBoardからドラッグで紐付ける</p>
 </ul>
 
 </div>
+<div class="step" data-y="1600" data-x="6000">
+<h1>4 Objective-C Tutorial</h1>
+
+</div>
+<div class="step" data-y="1600" data-x="7200">
+<h2>Objective-C</h2>
+
+<p>C言語にオブジェクト指向を加えた言語</p>
+
+<p>C言語の上位互換なので素のC言語を書くこともできる</p>
+
+</div>
+<div class="step" data-y="1600" data-x="8400">
+<h2>変数</h2>
+
+<p>C言語と一緒</p>
+
+<pre><code>int a = 1;
+double b = 3.14;
+</code></pre>
+
+<p>真偽値はYES, NO</p>
+
+<pre><code>BOOL flag = YES;
+</code></pre>
+
+<p>ポインタ</p>
+
+<pre><code>NSString *str;
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="0">
+<h2>制御文 if</h2>
+
+<pre><code>if ( a ) {
+
+} else if ( b ) {
+
+} else {
+
+}
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="1200">
+<h2>制御文 for</h2>
+
+<pre><code>for (int i = 0; i &lt; length; i++) {
+
+}
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="2400">
+<h2>文字列</h2>
+
+<pre><code>NSString *str = @"hogehoge";
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="3600">
+<h2>数値</h2>
+
+<pre><code>NSNumber *num = @10.00;
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="4800">
+<h2>配列</h2>
+
+<pre><code>NSArray *array = @[@"a", @"b", @"c"];
+NSLog(@"%@", array[1]);
+NSLog(@"個数 %@", [array count]);
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="6000">
+<h2>辞書</h2>
+
+<pre><code>NSDictionary *dict = @{@"a" : @1, @"b" : @2};
+NSLog(@"%@", dict[@"a"]);
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="7200">
+<h2>クラス宣言</h2>
+
+<pre><code>@interface ClassName : SuperClassName
+
+@end
+</code></pre>
+
+</div>
+<div class="step" data-y="2400" data-x="8400">
+<h2>クラス実装</h2>
+
+<pre><code>@implementation ClassName
+
+@end
+</code></pre>
+
+</div>
+<div class="step" data-y="3200" data-x="0">
+<h2>関数</h2>
+
+<p>宣言</p>
+
+<pre><code>- (void) hello:(NSString *)name;
+</code></pre>
+
+<p>実装</p>
+
+<pre><code>- (void) hello :(NSString *)name {
+    NSLog(@"hello %@", name);
+}
+</code></pre>
+
+<p>呼び出し</p>
+
+<pre><code>[self hello:@"world"];
+</code></pre>
+
+</div>
+<div class="step" data-y="3200" data-x="1200">
+<h2>プロパティ</h2>
+
+<p>getter/setter</p>
+
+<p>宣言</p>
+
+<pre><code>@property(nonatomic) NSString *name;
+</code></pre>
+
+<p>宣言のみの場合以下のようなコードが自動生成される</p>
+
+<p>実装</p>
+
+<pre><code>- (NSString *)name {
+    return _name;
+}
+- (void)setName:(NSString *)name {
+    _name = name;
+}
+</code></pre>
+
+</div>
+<div class="step" data-y="3200" data-x="2400">
+<h2>カテゴリ</h2>
+
+<p>既存のクラスに自分で実装したメソッドを追加出来る機能</p>
+
+</div>
+<div class="step" data-y="3200" data-x="3600">
+<h2>プロトコル</h2>
+
+<p>JavaやAS3でいうインターフェース</p>
+
+</div>
 
 
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">

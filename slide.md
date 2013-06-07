@@ -158,4 +158,120 @@ ViewControllerライフサイクル
 * viewWillAppear
 * etc...
 
+4 Objective-C Tutorial
+=======================
+
+Objective-C
+-----------
+C言語にオブジェクト指向を加えた言語
+
+C言語の上位互換なので素のC言語を書くこともできる
+
+変数
+------
+C言語と一緒
+
+    int a = 1;
+    double b = 3.14;
+
+真偽値はYES, NO
+
+    BOOL flag = YES;
+
+ポインタ
+
+    NSString *str;
+
+制御文 if
+----------
+    if ( a ) {
+
+    } else if ( b ) {
+
+    } else {
+
+    }
+
+制御文 for
+----------
+    for (int i = 0; i < length; i++) {
+
+    }
+
+文字列
+-------
+    NSString *str = @"hogehoge";
+
+数値
+-----
+    NSNumber *num = @10.00;
+
+配列
+-----
+    NSArray *array = @[@"a", @"b", @"c"];
+    NSLog(@"%@", array[1]);
+    NSLog(@"個数 %@", [array count]);
+
+辞書
+-----
+    NSDictionary *dict = @{@"a" : @1, @"b" : @2};
+    NSLog(@"%@", dict[@"a"]);
+
+クラス宣言
+-----------
+    @interface ClassName : SuperClassName
+
+    @end
+
+クラス実装
+-----------
+    @implementation ClassName
+
+    @end
+
+関数
+-----
+宣言
+
+    - (void) hello:(NSString *)name;
+
+実装
+
+    - (void) hello :(NSString *)name {
+        NSLog(@"hello %@", name);
+    }
+
+呼び出し
+
+    [self hello:@"world"];
+
+プロパティ
+----------
+getter/setter
+
+宣言
+
+    @property(nonatomic) NSString *name;
+
+宣言のみの場合以下のようなコードが自動生成される
+
+実装
+
+    - (NSString *)name {
+        return _name;
+    }
+    - (void)setName:(NSString *)name {
+        _name = name;
+    }
+
+カテゴリ
+--------
+
+既存のクラスに自分で実装したメソッドを追加出来る機能
+
+
+プロトコル
+----------
+
+JavaやAS3でいうインターフェース
 
