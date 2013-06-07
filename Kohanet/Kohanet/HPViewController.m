@@ -35,6 +35,10 @@ static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.backButton.hidden = YES;
+    self.forwardButton.hidden = YES;
+    
+    self.webView.delegate = self;
     self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:request];
 }
@@ -69,6 +73,14 @@ static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
 - (IBAction)tappedForwardButton:(id)sender
 {
     [self.webView goForward];
+}
+
+#pragma mark - UIWebViewDelegate
+
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    self.backButton.hidden = !self.webView.canGoBack;
+    self.forwardButton.hidden = !self.webView.canGoForward;
 }
 
 @end

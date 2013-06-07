@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HPViewController : UIViewController
+@interface HPViewController : UIViewController <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIButton *homeButton;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
