@@ -17,7 +17,7 @@
 		E672563317624EA700E3FF5B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E672563217624EA700E3FF5B /* Default@2x.png */; };
 		E672563517624EA700E3FF5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E672563417624EA700E3FF5B /* Default-568h@2x.png */; };
 		E672563817624EA700E3FF5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E672563617624EA700E3FF5B /* MainStoryboard.storyboard */; };
-		E672563B17624EA700E3FF5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E672563A17624EA700E3FF5B /* ViewController.m */; };
+		E672563B17624EA700E3FF5B /* HPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E672563A17624EA700E3FF5B /* HPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		E672563217624EA700E3FF5B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E672563417624EA700E3FF5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E672563717624EA700E3FF5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E672563917624EA700E3FF5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E672563A17624EA700E3FF5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E672563917624EA700E3FF5B /* HPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPViewController.h; sourceTree = "<group>"; };
+		E672563A17624EA700E3FF5B /* HPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				E672562D17624EA700E3FF5B /* AppDelegate.h */,
 				E672562E17624EA700E3FF5B /* AppDelegate.m */,
 				E672563617624EA700E3FF5B /* MainStoryboard.storyboard */,
-				E672563917624EA700E3FF5B /* ViewController.h */,
-				E672563A17624EA700E3FF5B /* ViewController.m */,
+				E672563917624EA700E3FF5B /* HPViewController.h */,
+				E672563A17624EA700E3FF5B /* HPViewController.m */,
 				E672562517624EA700E3FF5B /* Supporting Files */,
 			);
 			path = Kohanet;
@@ -174,7 +174,7 @@
 			files = (
 				E672562B17624EA700E3FF5B /* main.m in Sources */,
 				E672562F17624EA700E3FF5B /* AppDelegate.m in Sources */,
-				E672563B17624EA700E3FF5B /* ViewController.m in Sources */,
+				E672563B17624EA700E3FF5B /* HPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 				E672564017624EA700E3FF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

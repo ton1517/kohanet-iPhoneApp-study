@@ -6,13 +6,13 @@
 //
 //
 
-#import "ViewController.h"
+#import "HPViewController.h"
 
-@interface ViewController ()
+@interface HPViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HPViewController
 
 - (void)viewDidLoad
 {
