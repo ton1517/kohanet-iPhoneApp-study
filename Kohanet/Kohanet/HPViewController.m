@@ -36,6 +36,7 @@ static NSString * const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:request];
 }
 
