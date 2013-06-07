@@ -45,6 +45,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Kgh-3s-vwg" kind="push" id="ygX-Pt-yL9"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="eER-d3-ois">
                                 <rect key="frame" x="80" y="105" width="161" height="44"/>
@@ -87,6 +90,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="146" y="-33"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9pN-Yu-ldS">
+            <objects>
+                <viewController id="Kgh-3s-vwg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FH2-Kt-0wV">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.27888643000000002" green="0.34297754930000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Thz-N0-TOX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJp-ex-mQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="-33"/>
         </scene>
     </scenes>
     <classes>
