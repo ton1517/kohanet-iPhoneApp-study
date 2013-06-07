@@ -37,4 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tappedButton:(id)sender {
+    NSLog(@"tapped button");
+}
 @end

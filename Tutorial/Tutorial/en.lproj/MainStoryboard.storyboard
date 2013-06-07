@@ -111,6 +111,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tappedButton:" destination="Kgh-3s-vwg" eventType="touchUpInside" id="ARB-SF-mDc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.27888643000000002" green="0.34297754930000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -129,6 +132,7 @@
         <class className="SecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
             <relationships>
+                <relationship kind="action" name="tappedButton:"/>
                 <relationship kind="outlet" name="backButton" candidateClass="UIButton"/>
             </relationships>
         </class>

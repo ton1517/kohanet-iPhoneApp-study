@@ -10,5 +10,6 @@
 
 @interface SecondViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
+- (IBAction)tappedButton:(id)sender;
 
 @end
