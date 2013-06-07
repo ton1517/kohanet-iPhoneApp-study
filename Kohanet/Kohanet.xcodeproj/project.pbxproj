@@ -440,6 +440,7 @@
 		E6E75AD1176272B000AFBE12 /* glyphicons_417_rss.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7592B176272B000AFBE12 /* glyphicons_417_rss.png */; };
 		E6E75AD2176272B000AFBE12 /* glyphicons_418_skype.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7592C176272B000AFBE12 /* glyphicons_418_skype.png */; };
 		E6E75AD3176272B000AFBE12 /* glyphicons_419_e-mail.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E7592D176272B000AFBE12 /* glyphicons_419_e-mail.png */; };
+		E6E75AD6176278F700AFBE12 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E75AD5176278F700AFBE12 /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -881,6 +882,8 @@
 		E6E7592B176272B000AFBE12 /* glyphicons_417_rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_417_rss.png; sourceTree = "<group>"; };
 		E6E7592C176272B000AFBE12 /* glyphicons_418_skype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_418_skype.png; sourceTree = "<group>"; };
 		E6E7592D176272B000AFBE12 /* glyphicons_419_e-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_419_e-mail.png"; sourceTree = "<group>"; };
+		E6E75AD4176278F700AFBE12 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		E6E75AD5176278F700AFBE12 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -934,6 +937,8 @@
 				E672563917624EA700E3FF5B /* HPViewController.h */,
 				E672563A17624EA700E3FF5B /* HPViewController.m */,
 				E672562517624EA700E3FF5B /* Supporting Files */,
+				E6E75AD4176278F700AFBE12 /* InfoViewController.h */,
+				E6E75AD5176278F700AFBE12 /* InfoViewController.m */,
 			);
 			path = Kohanet;
 			sourceTree = "<group>";
@@ -1887,6 +1892,7 @@
 				E672562B17624EA700E3FF5B /* main.m in Sources */,
 				E672562F17624EA700E3FF5B /* AppDelegate.m in Sources */,
 				E672563B17624EA700E3FF5B /* HPViewController.m in Sources */,
+				E6E75AD6176278F700AFBE12 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

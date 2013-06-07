@@ -56,6 +56,7 @@ static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
     [self setBackButton:nil];
     [self setForwardButton:nil];
     [self setReloadButton:nil];
+    [self setInfoButton:nil];
     [super viewDidUnload];
 }
 
