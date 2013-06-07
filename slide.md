@@ -42,6 +42,8 @@ tonです
 
 さっそくXcodeを起動しましょう。
 
+*tutorialブランチに途中のサンプルコードが入ってます
+
 まず...
 -------
 
@@ -275,3 +277,42 @@ getter/setter
 
 JavaやAS3でいうインターフェース
 
+5 Develop iPhone App!
+=====================
+
+iPhoneアプリ作成
+------------------
+
+KohanetのWebページを表示するアプリを作りましょう
+
+一緒に手を動かしていきます
+
+*appブランチにプロジェクトがあります
+途中経過はコミットを辿ってください
+
+icon
+-----
+
+[GLYPHICONS](http://glyphicons.com/)
+
+付録 - チェックサイト
+---------------------
+
+* [iOS Developer Library](https://developer.apple.com/library/ios/navigation/)
+* [日本語ドキュメント - Apple Developer](https://developer.apple.com/jp/devcenter/ios/library/japanese.html)
+* [GitHub (Objective-C)](https://github.com/languages/Objective-C)
+* [Qiita (iPhone)](http://qiita.com/tags/iPhone)
+* [mixi-inc/iOSTraining · GitHub](https://github.com/mixi-inc/iOSTraining)
+
+付録 - 便利なツール
+--------------------
+
+* [CocoaPods: The Objective-C Library Manager](http://cocoapods.org/)
+* git
+* [Dash - Documentation Browser, Snippet Manager - Kapeli](http://kapeli.com/dash)
+* [Alcatraz : Xcode Package Manager](http://mneorr.github.io/Alcatraz/)
+* [Reveal App](http://revealapp.com/)
+* [TestFlight » Beta Testing On The Fly](https://testflightapp.com/)
+
+おわり
+======
