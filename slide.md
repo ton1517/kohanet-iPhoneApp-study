@@ -18,6 +18,12 @@ tonです
 * [Twitter: @ton1517](https://twitter.com/ton1517)
 * [Github: @ton1517](https://github.com/ton1517)
 
+URL
+====
+このスライドやサンプルコードなどはgithubにあります
+
+[https://github.com/ton1517/kohanet-iPhoneApp-study](https://github.com/ton1517/kohanet-iPhoneApp-study)
+
 
 目次
 ======
