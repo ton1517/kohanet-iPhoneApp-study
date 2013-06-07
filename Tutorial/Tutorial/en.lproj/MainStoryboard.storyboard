@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="146" y="-33"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="9pN-Yu-ldS">
             <objects>
-                <viewController id="Kgh-3s-vwg" sceneMemberID="viewController">
+                <viewController id="Kgh-3s-vwg" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FH2-Kt-0wV">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,6 +109,9 @@
         </scene>
     </scenes>
     <classes>
+        <class className="SecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
