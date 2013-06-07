@@ -49,6 +49,8 @@ static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
 {
     [self setWebView:nil];
     [self setHomeButton:nil];
+    [self setBackButton:nil];
+    [self setForwardButton:nil];
     [super viewDidUnload];
 }
 
@@ -57,6 +59,16 @@ static NSString *const HOME_URL = @"http://www.kohanet.jp/kodomokai/";
 - (IBAction)tappedHomeButton:(id)sender
 {
     [self.webView loadRequest:request];
+}
+
+- (IBAction)tappedBackButton:(id)sender
+{
+    [self.webView goBack];
+}
+
+- (IBAction)tappedForwardButton:(id)sender
+{
+    [self.webView goForward];
 }
 
 @end
