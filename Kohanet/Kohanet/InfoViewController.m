@@ -37,4 +37,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidUnload {
+    [self setBackButton:nil];
+    [super viewDidUnload];
+}
+
+- (IBAction)tappedBackButton:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
