@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Print.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <Print>
 
+@property(nonatomic) NSString *name;
 @end

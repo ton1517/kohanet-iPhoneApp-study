@@ -18,7 +18,6 @@
 		E672545217614ECA00E3FF5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E672545117614ECA00E3FF5B /* Default-568h@2x.png */; };
 		E672545517614ECA00E3FF5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E672545317614ECA00E3FF5B /* MainStoryboard.storyboard */; };
 		E672545817614ECA00E3FF5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E672545717614ECA00E3FF5B /* ViewController.m */; };
-		E672560F17623FA300E3FF5B /* UIView+Hoge.m in Sources */ = {isa = PBXBuildFile; fileRef = E672560E17623FA300E3FF5B /* UIView+Hoge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +37,7 @@
 		E672545417614ECA00E3FF5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E672545617614ECA00E3FF5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E672545717614ECA00E3FF5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E672560D17623FA300E3FF5B /* UIView+Hoge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hoge.h"; sourceTree = "<group>"; };
-		E672560E17623FA300E3FF5B /* UIView+Hoge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hoge.m"; sourceTree = "<group>"; };
+		E67256111762437300E3FF5B /* Print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +85,12 @@
 			isa = PBXGroup;
 			children = (
 				E672544A17614ECA00E3FF5B /* AppDelegate.h */,
-				E672560D17623FA300E3FF5B /* UIView+Hoge.h */,
-				E672560E17623FA300E3FF5B /* UIView+Hoge.m */,
 				E672544B17614ECA00E3FF5B /* AppDelegate.m */,
 				E672545317614ECA00E3FF5B /* MainStoryboard.storyboard */,
 				E672545617614ECA00E3FF5B /* ViewController.h */,
 				E672545717614ECA00E3FF5B /* ViewController.m */,
 				E672544217614ECA00E3FF5B /* Supporting Files */,
+				E67256111762437300E3FF5B /* Print.h */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -180,7 +177,6 @@
 				E672544817614ECA00E3FF5B /* main.m in Sources */,
 				E672544C17614ECA00E3FF5B /* AppDelegate.m in Sources */,
 				E672545817614ECA00E3FF5B /* ViewController.m in Sources */,
-				E672560F17623FA300E3FF5B /* UIView+Hoge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "UIView+Hoge.h"
 
 @interface ViewController ()
-
+{
+    id<Print> printer;
+}
 @end
 
 @implementation ViewController
@@ -18,9 +19,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
     
-    [self.view hoge];
+    printer = self;
+    
+    [printer print];
+}
+
+- (void)print
+{
+    NSLog(@"print");
 }
 
 @end
