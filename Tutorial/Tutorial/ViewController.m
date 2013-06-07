@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+Hoge.h"
 
 @interface ViewController ()
 
@@ -17,15 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     
-    
-    NSLog(@"printデバッグ");
-    
-    NSLog(@"数値 %d, %f", 10, 3.14);
-    
-    NSString *str = @"string";
-    NSLog(@"オブジェクト %@", str);
-    
+    [self.view hoge];
 }
 
 @end
