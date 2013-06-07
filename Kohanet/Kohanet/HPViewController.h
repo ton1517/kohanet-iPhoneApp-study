@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *forwardButton;
 @property (weak, nonatomic) IBOutlet UIButton *reloadButton;
 
-
 - (IBAction)tappedHomeButton:(id)sender;
 - (IBAction)tappedBackButton:(id)sender;
 - (IBAction)tappedForwardButton:(id)sender;
